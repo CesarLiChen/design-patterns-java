@@ -16,6 +16,13 @@ public class DuckSimulator {
 		rubber.performQuack();
 		rubber.performFly();
 		rubber.swim();
+		
+		System.out.println("");
+		Duck modelDuck = new ModelDuck();
+		modelDuck.display();
+		modelDuck.performQuack();
+		modelDuck.performFly();
+		modelDuck.setFlyBehaviour(new FlyRocketPowered());
+		modelDuck.performFly();
 	}
-
 }
