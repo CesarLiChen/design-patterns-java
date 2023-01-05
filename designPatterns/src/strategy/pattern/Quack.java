@@ -1,4 +1,4 @@
-package design.pattern.intro;
+package strategy.pattern;
 
 public class Quack implements QuackBehaviourInterface {
 	
