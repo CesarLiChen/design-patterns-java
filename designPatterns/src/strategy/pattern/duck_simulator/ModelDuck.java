@@ -1,4 +1,4 @@
-package strategy.pattern;
+package strategy.pattern.duck_simulator;
 
 public class ModelDuck extends Duck {
 
@@ -7,6 +7,7 @@ public class ModelDuck extends Duck {
 		flyBehaviour = new FlyNoWay();
 	}
 
+	@Override
 	public void display() {
 		System.out.println("I'm a model duck");
 	}

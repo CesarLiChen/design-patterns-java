@@ -1,4 +1,4 @@
-package strategy.pattern;
+package strategy.pattern.duck_simulator;
 
 public interface QuackBehaviourInterface {
 
