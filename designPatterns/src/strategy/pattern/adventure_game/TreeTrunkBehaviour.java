@@ -1,4 +1,4 @@
-package strategy.pattern.adventure.game;
+package strategy.pattern.adventure_game;
 
 public class TreeTrunkBehaviour implements WeaponBehaviour {
 

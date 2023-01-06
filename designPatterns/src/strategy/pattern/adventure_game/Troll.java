@@ -1,11 +1,11 @@
-package strategy.pattern.adventure.game;
+package strategy.pattern.adventure_game;
 
 public class Troll extends Character {
 
 	public Troll() {
 		weapon = new TreeTrunkBehaviour();
 	}
-	
+
 	@Override
 	public void display() {
 		System.out.println("** troll grunts **");

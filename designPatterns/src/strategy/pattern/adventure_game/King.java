@@ -1,11 +1,11 @@
-package strategy.pattern.adventure.game;
+package strategy.pattern.adventure_game;
 
 public class King extends Character {
-	
+
 	public King() {
 		weapon = new AxeBehaviour();
 	}
-	
+
 	@Override
 	public void display() {
 		System.out.println("I'm the KING!");

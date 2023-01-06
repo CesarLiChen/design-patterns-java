@@ -1,11 +1,11 @@
-package strategy.pattern.adventure.game;
+package strategy.pattern.adventure_game;
 
 public class Queen extends Character {
-	
+
 	public Queen() {
 		weapon = new MagicBehaviour();
 	}
-	
+
 	@Override
 	public void display() {
 		System.out.println("I'm the QUEEN!");

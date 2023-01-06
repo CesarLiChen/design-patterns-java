@@ -1,11 +1,11 @@
-package strategy.pattern.adventure.game;
+package strategy.pattern.adventure_game;
 
 public class Knight extends Character{
-	
+
 	public Knight() {
 		weapon = new SwordBehaviour();
 	}
-	
+
 	@Override
 	public void display() {
 		System.out.println("I'm a noble knight!");
