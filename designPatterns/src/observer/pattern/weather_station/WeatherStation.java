@@ -10,11 +10,11 @@ public class WeatherStation {
 		ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 		HeatIndexDisplay heatIndexDisplay = new HeatIndexDisplay(weatherData);
 		
-		weatherData.setMeasurements(80, 65, 30.4f);
+		weatherData.setMeasurements(15, 65, 30.4f);
 		System.out.println("=====");
-		weatherData.setMeasurements(82, 70, 29.2f);
+		weatherData.setMeasurements(20, 70, 29.2f);
 		System.out.println("=====");
-		weatherData.setMeasurements(78, 90, 29.2f);
+		weatherData.setMeasurements(10, 90, 29.2f);
 
 	}
 
