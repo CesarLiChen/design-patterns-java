@@ -1,6 +1,6 @@
 package ca.meself.object_oriented_programming;
 
-public abstract class Animal {
+public class Animal {
 
 	private String name;
 	private int weight;
