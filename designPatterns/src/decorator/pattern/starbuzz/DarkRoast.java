@@ -6,6 +6,7 @@ public class DarkRoast extends Beverage{
 		description = "House Blend Cofee";
 	}
 	
+	@Override
 	public double cost() {
 		return 0.99;
 	}
