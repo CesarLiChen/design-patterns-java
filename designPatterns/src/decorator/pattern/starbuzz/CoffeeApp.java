@@ -7,21 +7,21 @@ public class CoffeeApp {
 	public static void main(String[] args) {
 		
 		Beverage beverage1 = new HouseBlend();
-		beverage1.setSize(Size.VENTI);
+		beverage1.setSize(Size.GRANDE);
 		System.out.printf("%s $ %.2f\n", beverage1.getDescription(), beverage1.cost());
-		
+		System.out.println(beverage1.getSize());
 		beverage1 = new Mocha(beverage1);
 		System.out.printf("%s $ %.2f\n", beverage1.getDescription(), beverage1.cost());
-		
+		System.out.println(beverage1.getSize());
 		beverage1 = new Mocha(beverage1);
 		System.out.printf("%s $ %.2f\n", beverage1.getDescription(), beverage1.cost());
-		
+		System.out.println(beverage1.getSize());
 		beverage1 = new Soy(beverage1);
 		System.out.printf("%s $ %.2f\n", beverage1.getDescription(), beverage1.cost());
-		
+		System.out.println(beverage1.getSize());
 		beverage1 = new Whip(beverage1);
 		System.out.printf("%s $ %.2f\n", beverage1.getDescription(), beverage1.cost());
-		
+		System.out.println(beverage1.getSize());
 		System.out.printf("BEVERAGE 1: A %s!\nIt will be: %.2f\n", beverage1.getDescription(), beverage1.cost());
 		
 		System.out.println("========================");
