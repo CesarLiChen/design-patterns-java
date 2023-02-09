@@ -3,7 +3,7 @@ package decorator.pattern.starbuzz;
 public class DarkRoast extends Beverage{
 
 	public DarkRoast() {
-		description = "House Blend Cofee";
+		description = "Dark Roast Cofee";
 	}
 	
 	@Override
