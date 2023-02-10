@@ -5,6 +5,11 @@ public class Espresso extends Beverage{
 	public Espresso() {
 		description = "Espresso";
 	}
+	
+	@Override
+	public Size getSize() {
+		return this.size;
+	}
 
 	@Override
 	public double cost() {

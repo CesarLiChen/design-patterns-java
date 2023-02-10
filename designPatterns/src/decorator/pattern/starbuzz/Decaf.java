@@ -7,6 +7,11 @@ public class Decaf extends Beverage{
 	}
 	
 	@Override
+	public Size getSize() {
+		return this.size;
+	}
+	
+	@Override
 	public double cost() {
 		
 		double cost = 0.0;
