@@ -6,6 +6,10 @@ public class HouseBlend extends Beverage{
 		description = "House Blend Coffee";
 	}
 	
+	@Override
+	public Size getSize() {
+		return this.size;
+	}
 	
 	@Override
 	public double cost() {

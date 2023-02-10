@@ -11,9 +11,11 @@ public abstract class Beverage {
 		this.size = size;
 	}
 	
-	public Size getSize() {
-		return size;
-	}
+//	public Size getSize() {
+//		return size;
+//	}
+	
+	public abstract Size getSize();
 	
 	public String getDescription() {
 		return description;

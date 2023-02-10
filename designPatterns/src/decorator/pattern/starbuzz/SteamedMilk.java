@@ -12,7 +12,12 @@ public class SteamedMilk extends CondimentDecorator{
 	public String getDescription() {
 		return beverage.getDescription() + " + Steamed Milk";
 	}
-
+	
+	@Override
+	public Size getSize() {
+		return beverage.getSize();
+	}
+	
 	@Override
 	public double cost() {
 		

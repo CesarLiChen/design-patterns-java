@@ -12,6 +12,11 @@ public class Soy extends CondimentDecorator{
 	public String getDescription() {
 		return beverage.getDescription() + " + Soy";
 	}
+	
+	@Override
+	public Size getSize() {
+		return beverage.getSize();
+	}
 
 	@Override
 	public double cost() {
