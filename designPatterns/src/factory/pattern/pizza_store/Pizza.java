@@ -19,15 +19,15 @@ public abstract class Pizza {
 		}
 	}
 	
-	void bake() {
+	protected void bake() {
 		System.out.println("Baking for 25 mins at 350 degrees Fahrenheit");
 	}
 	
-	void cut() {
+	protected void cut() {
 		System.out.println("Cutting the pizza.. **slash, slash, slash**");
 	}
 	
-	void box() {
+	protected void box() {
 		System.out.println("Boxing the pizza");
 	}
 	
