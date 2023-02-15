@@ -2,6 +2,10 @@ package factory.pattern.pizza_store.styles;
 
 import factory.pattern.pizza_store.Pizza;
 import factory.pattern.pizza_store.PizzaStore;
+import factory.pattern.pizza_store.pizza_types.NYStyleCheesePizza;
+import factory.pattern.pizza_store.pizza_types.NYStyleClamPizza;
+import factory.pattern.pizza_store.pizza_types.NYStylePepperoniPizza;
+import factory.pattern.pizza_store.pizza_types.NYStyleVeggiePizza;
 
 public class NYPizzaStore extends PizzaStore{
 
