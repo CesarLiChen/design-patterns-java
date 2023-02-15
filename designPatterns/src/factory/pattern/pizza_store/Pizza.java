@@ -10,19 +10,29 @@ public abstract class Pizza {
 	ArrayList<String> toppings = new ArrayList<String>();
 	
 	void prepare() {
-		
+		System.out.println("Preparing " + name);
+		System.out.println("Tossing dough...");
+		System.out.println("Spreading the SAUCE");
+		System.out.println("Adding these toppings: ");
+		for (String topping : toppings) {
+			System.out.println("===> " + topping);
+		}
 	}
 	
 	void bake() {
-		
+		System.out.println("Baking for 25 mins at 350 degrees Fahrenheit");
 	}
 	
 	void cut() {
-		
+		System.out.println("Cutting the pizza.. **slash, slash, slash**");
 	}
 	
 	void box() {
-		
+		System.out.println("Boxing the pizza");
+	}
+	
+	public String getName() {
+		return name;
 	}
 	
 }
